@@ -1,9 +1,9 @@
 {
-    "name": "tobybatch/chrome-kimai-plugin",
+    "name": "nikolateslax/chrome-kimai-plugin",
     "description": "Allow a user to log time directly into kimai",
     "homepage": "https://www.neontribe.co.uk",
     "type": "kimai-plugin",
-    "version": "0.1",
+    "version": "0.2",
     "require": {
         "../../../vendor/kimai/kimai2-composer": "*"
     },
@@ -17,12 +17,17 @@
             "name": "Toby Batch",
             "email": "tobias@neontribe.co.uk",
             "homepage": "https://www.neontribe.co.uk"
+        },
+        {
+            "name": "Nicholas Sklar",
+            "email": "bobsklar12@gmail.com",
+            "homepage": "about:blank"
         }
     ],
     "extra": {
         "kimai": {
-            "require": "1.5",
-            "version": "0.1",
+            "require": 20000,
+            "version": "0.2",
             "name": "Chrome Plugin"
         }
     },
